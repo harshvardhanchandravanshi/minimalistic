@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #dadada;
+}
+#center{
+    position: relative;
+    width: 75%;
+    height: 75%;
+    /* background-color: aqua; */
+}
+.imgcont{
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    /* background-color: red; */
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+object-fit: cover;
+}
+#lala img{
+    margin-top: auto;
+    margin-left: auto;
+    overflow: hidden;  
+} 
+.text{
+    position: absolute;
+    left: -100px;
+    bottom: 7%;
+    width: 400px;
+    height: 70px;
+    /* background-color: blueviolet; */
+    z-index: 99;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.text h2{
+    position: absolute;
+    top: 100px;
+    font-family: gilroy;
+    font-size: 4vw;
+}
